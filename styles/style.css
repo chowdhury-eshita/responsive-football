@@ -216,7 +216,7 @@ hr{
         margin-left: 0;
     }
     .players-container{
-        margin: 0;
+        margin: auto;
     }
 .players{
     grid-template-columns: repeat(1,1fr);
@@ -240,13 +240,15 @@ hr{
 
 /* tablet devices */
 @media only screen and (min-width:689px) and (max-width:992px){
+    body{
+        width: 100%;
+    }
     .top-container{
         width: 100%;
         height: auto;
     }
     .top-section{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         margin-left: 0;
     }
