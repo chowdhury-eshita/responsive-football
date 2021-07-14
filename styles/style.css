@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* common styles */
+
 body{
     background-color: #f3f2f2;
     font-family: 'Poppins', sans-serif;
@@ -19,9 +20,11 @@ body{
 a{
     cursor: pointer;
 }
+
 /* top container styles */
 
-.container{
+.top-container{
+    margin-top: 0;
     width: 100%;
     height: 677px;
     background-color: #2D25A0;
@@ -102,7 +105,7 @@ a{
 
 /* highlight section style  */
 .highlight-container{
-    margin-top: 165px;
+    margin-top: 160px;
 }
 .highlight-section{
     display: flex;
@@ -118,13 +121,42 @@ a{
     width: 550px;
     height: 400px;
 }
+.highlight-video:hover{
+    transform: scale(1.1);
+    transition: transform .2s ease-out;
+}
+/* register style section */
+.fan-club{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.fan-club h2{
+    color: slateblue;
+    font-size: 50px;
+}
+.register-button input{
+    text-decoration: none;
+    background-color: steelblue;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.register-button:hover{
+    transform: scale(1.1);
+    transition: transform .2s ease-out;
+}
 
 /* footer styles */
 footer{
     color: gray;
 }
 .footer-image{
-    width: 480px;
+    width: 400px;
     height: 110px;
     margin-bottom: 50px;
 }
