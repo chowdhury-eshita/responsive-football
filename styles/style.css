@@ -20,6 +20,10 @@ body{
 a{
     cursor: pointer;
 }
+.font-color{
+    color: #0A0826
+    ;
+}
 
 /* top container styles */
 
@@ -63,6 +67,7 @@ a{
     transform: scale(1.2);
     transition: transform .2s ease-in;
 }
+
 /* player section style  */
 .players-container{
     width: 1050px;
@@ -92,6 +97,8 @@ a{
     font-weight: 400;
     text-align: left;
     width: 300px;
+    color: #6C6C6C
+    ;
 }
 .player img{
     width: 300px;
@@ -134,21 +141,30 @@ a{
 
 }
 .fan-club h2{
-    color: slateblue;
-    font-size: 50px;
+    color: rgb(55, 72, 168);
+    font-size: 40px;
 }
 .register-button input{
     text-decoration: none;
-    background-color: steelblue;
+    background-color:crimson;
     padding: 15px 50px;
     color: white;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
 }
-.register-button:hover{
-    transform: scale(1.1);
-    transition: transform .2s ease-out;
+/* register button animation  */
+.animation{
+    animation: scale 1.5s ease-in-out infinite;
+}
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+    
 }
 
 /* footer styles */
@@ -177,3 +193,4 @@ hr{
     color: black;
     font-size: 20px;
 }
+
