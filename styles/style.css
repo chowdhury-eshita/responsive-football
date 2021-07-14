@@ -210,13 +210,10 @@ hr{
         height: auto;
     }
     .top-section{
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 0;
-    }
-     .head-title{
-        margin-left: 10px;
-        margin-right: auto;
     }
     .players-container{
         margin: 0;
@@ -248,7 +245,7 @@ hr{
         height: auto;
     }
     .top-section{
-        padding-left: 50px;
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 0;
@@ -265,6 +262,7 @@ hr{
         justify-content: center;
     }
     .highlight-section{
+        display: flex;
         flex-wrap: wrap;
     }
     .footer-image img{
