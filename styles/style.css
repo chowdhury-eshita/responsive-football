@@ -99,6 +99,9 @@ a{
     background-color: white;
     overflow: hidden;
 }
+.player h2{
+    margin-top: 20px;
+}
 .player p{
     font-size: 16px;
     font-weight: 400;
